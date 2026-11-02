@@ -1,0 +1,652 @@
+[
+  {
+    "pergunta": "O que significa a sigla HTML em desenvolvimento web?",
+    "alternativas": [
+      "HyperText Markup Language",
+      "High Tech Modern Language",
+      "HyperTransfer Markup Logic",
+      "HyperText Management Language"
+    ],
+    "correta": 0,
+    "explicacao": "HTML significa HyperText Markup Language, sendo a linguagem padrão de marcação para páginas web.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS é utilizada para alterar a cor do texto?",
+    "alternativas": [
+      "background-color",
+      "color",
+      "text-style",
+      "font-color"
+    ],
+    "correta": 1,
+    "explicacao": "A propriedade 'color' define a cor do texto de um elemento, enquanto 'background-color' define o fundo.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual método do JavaScript é usado para converter uma string JSON em um objeto JavaScript?",
+    "alternativas": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.toObject()",
+      "JSON.convert()"
+    ],
+    "correta": 1,
+    "explicacao": "O método JSON.parse() analisa uma string JSON e a converte em um valor ou objeto JavaScript.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual tag HTML é utilizada para criar um link (âncora)?",
+    "alternativas": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <a> (anchor) define um hiperlink usado para ligar páginas web.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual seletor CSS é usado para selecionar um elemento por ID?",
+    "alternativas": [
+      ".",
+      "#",
+      "*",
+      "&"
+    ],
+    "correta": 1,
+    "explicacao": "O caractere cerquilha (#) é utilizado em CSS para selecionar elementos com base em seu atributo ID.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Como declaramos uma variável constante em JavaScript moderno (ES6+)?",
+    "alternativas": [
+      "let",
+      "var",
+      "const",
+      "constant"
+    ],
+    "correta": 2,
+    "explicacao": "A palavra-chave 'const' é usada para declarar variáveis cujos valores não podem ser reatribuídos posteriormente.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS Flexbox define a direção principal dos itens?",
+    "alternativas": [
+      "flex-direction",
+      "flex-wrap",
+      "justify-content",
+      "align-items"
+    ],
+    "correta": 0,
+    "explicacao": "A propriedade flex-direction especifica como os itens flexíveis são colocados no contêiner flexível.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual função do JavaScript exibe uma mensagem de alerta na tela para o usuário?",
+    "alternativas": [
+      "msg()",
+      "alert()",
+      "prompt()",
+      "console.log()"
+    ],
+    "correta": 1,
+    "explicacao": "A função alert() exibe uma caixa de diálogo com uma mensagem e um botão OK.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual o significado da sigla CSS?",
+    "alternativas": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Colorful Style Sheets"
+    ],
+    "correta": 1,
+    "explicacao": "CSS significa Cascading Style Sheets (Folhas de Estilo em Cascata).",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual é a extensão padrão para arquivos de script em JavaScript?",
+    "alternativas": [
+      ".java",
+      ".j",
+      ".js",
+      ".script"
+    ],
+    "correta": 2,
+    "explicacao": "Arquivos que contêm código JavaScript utilizam a extensão .js.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual método adiciona um novo elemento ao final de um array em JavaScript?",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "correta": 0,
+    "explicacao": "O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade CSS é utilizada para controlar o espaçamento interno de um elemento?",
+    "alternativas": [
+      "margin",
+      "padding",
+      "spacing",
+      "border-spacing"
+    ],
+    "correta": 1,
+    "explicacao": "O 'padding' define a área de preenchimento entre o conteúdo de um elemento e sua borda.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Em qual elemento HTML devemos colocar arquivos JavaScript externos?",
+    "alternativas": [
+      "<javascript>",
+      "<script>",
+      "<js>",
+      "<code>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <script> é usada para incorporar ou referenciar scripts executáveis no documento HTML.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como se faz um comentário de uma linha em JavaScript?",
+    "alternativas": [
+      "<!-- Este é um comentário -->",
+      "/* Este é um comentário */",
+      "// Este é um comentário",
+      "# Este é um comentário"
+    ],
+    "correta": 2,
+    "explicacao": "Em JavaScript, comentários de uma linha iniciam com barras duplas (//).",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual tag HTML define o título principal (cabeçalho nível 1) de uma página?",
+    "alternativas": [
+      "<head>",
+      "<h1>",
+      "<header>",
+      "<title>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <h1> representa o cabeçalho de seção de nível mais alto em uma página web.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS controla o tamanho da fonte do texto?",
+    "alternativas": [
+      "font-style",
+      "text-size",
+      "font-size",
+      "text-style-size"
+    ],
+    "correta": 2,
+    "explicacao": "A propriedade 'font-size' define o tamanho do texto exibido no elemento.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual método JavaScript remove o último elemento de um array?",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "shift()",
+      "slice()"
+    ],
+    "correta": 0,
+    "explicacao": "O método pop() remove o último elemento de um array e retorna esse elemento.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como selecionamos elementos por classe em CSS?",
+    "alternativas": [
+      "#",
+      ".",
+      "@",
+      "*"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto (.) em CSS é utilizado para selecionar elementos que possuem uma classe específica.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual operador lógico representa o 'E' (AND) em JavaScript?",
+    "alternativas": [
+      "||",
+      "&&",
+      "!",
+      "=="
+    ],
+    "correta": 1,
+    "explicacao": "O operador lógico '&&' representa o E comercial lógico (AND).",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual tag HTML é usada para criar uma lista não ordenada (com marcadores)?",
+    "alternativas": [
+      "<ol>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "correta": 2,
+    "explicacao": "A tag <ul> (unordered list) representa uma lista de itens sem ordem específica.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade CSS deixa o texto em negrito?",
+    "alternativas": [
+      "font-weight",
+      "font-style",
+      "text-decoration",
+      "bold"
+    ],
+    "correta": 0,
+    "explicacao": "A propriedade 'font-weight' define o peso ou espessura da fonte, sendo 'bold' usada para negrito.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "O que significa a sigla DOM em desenvolvimento web?",
+    "alternativas": [
+      "Document Object Model",
+      "Data Oriented Management",
+      "Digital Ordinary Markup",
+      "Document Outline Maker"
+    ],
+    "correta": 0,
+    "explicacao": "DOM significa Document Object Model, a interface de programação para documentos HTML e XML.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual método do objeto 'document' seleciona um elemento pelo seu ID?",
+    "alternativas": [
+      "getElementsByClassName()",
+      "querySelector()",
+      "getElementById()",
+      "getElementByTag()"
+    ],
+    "correta": 2,
+    "explicacao": "O método getElementById() retorna um objeto Element representando o elemento cuja propriedade id corresponde à string especificada.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual unidade de medida em CSS é relativa à largura da tela (viewport width)?",
+    "alternativas": [
+      "px",
+      "em",
+      "vw",
+      "rem"
+    ],
+    "correta": 2,
+    "explicacao": "A unidade 'vw' representa 1% da largura da janela de visualização (viewport).",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual instrução condicional é usada para executar blocos de código diferentes com base em múltiplas condições em JavaScript?",
+    "alternativas": [
+      "if-else",
+      "switch",
+      "for",
+      "while"
+    ],
+    "correta": 1,
+    "explicacao": "A instrução 'switch' avalia uma expressão, comparando seu valor com vários casos (case) e executa o bloco correspondente.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como criamos uma função tradicional em JavaScript?",
+    "alternativas": [
+      "function minhaFuncao() {}",
+      "def minhaFuncao() {}",
+      "create minhaFuncao() {}",
+      "fun minhaFuncao() {}"
+    ],
+    "correta": 0,
+    "explicacao": "Em JavaScript, definimos funções usando a palavra-chave 'function' seguida do nome e parênteses.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS define a cor de fundo de um elemento?",
+    "alternativas": [
+      "color",
+      "background-color",
+      "bg-color",
+      "fill"
+    ],
+    "correta": 1,
+    "explicacao": "A propriedade 'background-color' estabelece a cor de fundo de um elemento HTML.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual tag HTML é utilizada para inserir uma imagem?",
+    "alternativas": [
+      "<image>",
+      "<img>",
+      "<pic>",
+      "<src>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <img> é usada para embutir uma imagem em uma página web.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual atributo HTML fornece texto alternativo para imagens, essencial para acessibilidade?",
+    "alternativas": [
+      "title",
+      "alt",
+      "longdesc",
+      "aria-text"
+    ],
+    "correta": 1,
+    "explicacao": "O atributo 'alt' especifica um texto alternativo caso a imagem não possa ser exibida e para leitores de tela.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "O que o operador estrito '===' faz em JavaScript?",
+    "alternativas": [
+      "Compara apenas o valor, convertendo os tipos",
+      "Compara o valor e o tipo de dado",
+      "Atribui um valor a uma variável",
+      "Compara se é diferente"
+    ],
+    "correta": 1,
+    "explicacao": "O operador '===' verifica a igualdade estrita, exigindo que tanto o valor quanto o tipo de dado sejam idênticos.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual método converte um objeto JavaScript em uma string JSON?",
+    "alternativas": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.toText()"
+    ],
+    "correta": 1,
+    "explicacao": "O método JSON.stringify() converte um valor ou objeto JavaScript em uma string JSON.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual estrutura de repetição é ideal para iterar um número fixo de vezes conhecendo o índice?",
+    "alternativas": [
+      "while",
+      "do-while",
+      "for",
+      "if"
+    ],
+    "correta": 2,
+    "explicacao": "O loop 'for' é estruturado especificamente para repetições controladas por contador ou índice.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como centralizamos blocos horizontalmente utilizando margens automáticas em CSS?",
+    "alternativas": [
+      "margin: center;",
+      "margin: 0 auto;",
+      "align: center;",
+      "padding: auto;"
+    ],
+    "correta": 1,
+    "explicacao": "Definir margens superior/inferior como 0 e esquerda/direita como 'auto' centraliza elementos de bloco.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual evento do JavaScript é disparado quando o usuário clica em um elemento?",
+    "alternativas": [
+      "onmouseover",
+      "onchange",
+      "onclick",
+      "onsubmit"
+    ],
+    "correta": 2,
+    "explicacao": "O evento 'click' (ou onclick) ocorre quando um usuário clica em um elemento HTML.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "O que o armazenamento 'sessionStorage' faz no navegador?",
+    "alternativas": [
+      "Armazena dados permanentemente até que o usuário limpe os dados do site",
+      "Armazena dados apenas durante a sessão da aba, apagando ao fechá-la",
+      "Envia dados para um servidor remoto em nuvem",
+      "Armazena dados no servidor local do Node.js"
+    ],
+    "correta": 1,
+    "explicacao": "O sessionStorage armazena dados para uma sessão específica, que são limpos quando a aba ou janela do navegador é fechada.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS define o layout em grade bidimensional?",
+    "alternativas": [
+      "display: flex;",
+      "display: grid;",
+      "display: block;",
+      "display: table;"
+    ],
+    "correta": 1,
+    "explicacao": "A propriedade 'display: grid' ativa o sistema de layout CSS Grid, baseado em linhas e colunas.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual tag HTML é usada para criar uma tabela?",
+    "alternativas": [
+      "<tab>",
+      "<table>",
+      "<tbl>",
+      "<grid>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <table> define dados tabulares em HTML.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como obtemos o tamanho (número de elementos) de um array em JavaScript?",
+    "alternativas": [
+      "array.size",
+      "array.length",
+      "array.count",
+      "array.total"
+    ],
+    "correta": 1,
+    "explicacao": "A propriedade '.length' retorna o número de elementos presentes em um array.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual é a principal utilidade do comando 'git commit'?",
+    "alternativas": [
+      "Enviar arquivos para um repositório remoto no GitHub",
+      "Salvar um ponto de controle (histórico) das alterações no repositório local",
+      "Baixar atualizações da branch principal",
+      "Criar uma nova branch de desenvolvimento"
+    ],
+    "correta": 1,
+    "explicacao": "O 'git commit' registra o estado atual dos arquivos adicionados no histórico do repositório local.",
+    "fonteNome": "Git Documentation",
+    "fonteUrl": "https://git-scm.com/"
+  },
+  {
+    "pergunta": "O que significa responsividade no desenvolvimento web?",
+    "alternativas": [
+      "Sites que carregam mais rápido em servidores dedicados",
+      "Capacidade do site de se adaptar perfeitamente a diferentes tamanhos de tela e dispositivos",
+      "Interação rápida baseada em inteligência artificial",
+      "Uso exclusivo de comandos de voz"
+    ],
+    "correta": 1,
+    "explicacao": "Design responsivo significa criar páginas web que detectam o dispositivo do usuário e ajustam o layout.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS gerencia o espaçamento externo dos elementos?",
+    "alternativas": [
+      "padding",
+      "margin",
+      "spacing",
+      "gap"
+    ],
+    "correta": 1,
+    "explicacao": "A propriedade 'margin' define o espaço ao redor dos elementos, fora de suas bordas.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "Qual função nativa do JavaScript arredonda um número para cima?",
+    "alternativas": [
+      "Math.floor()",
+      "Math.round()",
+      "Math.ceil()",
+      "Math.trunc()"
+    ],
+    "correta": 2,
+    "explicacao": "O método Math.ceil() arredonda um número para cima em direção ao próximo número inteiro.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual o propósito do comando 'git clone'?",
+    "alternativas": [
+      "Criar uma cópia local de um repositório remoto existente",
+      "Deletar uma branch obsoleta",
+      "Mesclar duas branches diferentes",
+      "Ver o status dos arquivos modificados"
+    ],
+    "correta": 0,
+    "explicacao": "O 'git clone' é usado para clonar ou baixar uma cópia de um repositório remoto existente para sua máquina.",
+    "fonteNome": "Git Documentation",
+    "fonteUrl": "https://git-scm.com/"
+  },
+  {
+    "pergunta": "Qual tag HTML é utilizada para formulários de entrada de dados do usuário?",
+    "alternativas": [
+      "<input>",
+      "<form>",
+      "<fieldset>",
+      "<textfield>"
+    ],
+    "correta": 1,
+    "explicacao": "A tag <form> é usada para criar um formulário HTML para submissão de dados.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual método do JavaScript é usado para selecionar o primeiro elemento correspondente a um seletor CSS?",
+    "alternativas": [
+      "querySelectorAll()",
+      "selectElement()",
+      "querySelector()",
+      "find()"
+    ],
+    "correta": 2,
+    "explicacao": "O método querySelector() retorna o primeiro elemento dentro do documento que coincide com o grupo especificado de seletores.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual propriedade do CSS define se um elemento é exibido ou fica invisível sem ocupar espaço?",
+    "alternativas": [
+      "visibility: hidden;",
+      "display: none;",
+      "opacity: 0;",
+      "filter: blur(10px);"
+    ],
+    "correta": 1,
+    "explicacao": "Com 'display: none', o elemento é completamente removido do fluxo visual da página, sem ocupar espaço.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual a principal vantagem de usar arquivos CSS externos?",
+    "alternativas": [
+      "Deixar o arquivo HTML menor e facilitar a reutilização de estilos em várias páginas",
+      "Executar códigos mais rápido no servidor Node.js",
+      "Impedir que usuários vejam o código-fonte",
+      "Garantir compatibilidade exclusiva com navegadores antigos"
+    ],
+    "correta": 0,
+    "explicacao": "Folhas de estilo externas permitem manter o código limpo e aplicar o mesmo design em múltiplos arquivos HTML.",
+    "fonteNome": "W3Schools",
+    "fonteUrl": "https://www.w3schools.com/"
+  },
+  {
+    "pergunta": "O que significa a sigla API?",
+    "alternativas": [
+      "Application Programming Interface",
+      "Advanced Program Integration",
+      "Automated Protocol Interaction",
+      "Application Process Instruction"
+    ],
+    "correta": 0,
+    "explicacao": "API significa Application Programming Interface (Interface de Programação de Aplicações).",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Como verificamos se uma variável é estritamente diferente em JavaScript?",
+    "alternativas": [
+      "!=",
+      "!==",
+      "!==",
+      "<> "
+    ],
+    "correta": 1,
+    "explicacao": "O operador '!==' verifica a desigualdade estrita, retornando verdadeiro se os valores ou os tipos forem diferentes.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  },
+  {
+    "pergunta": "Qual tag HTML é recomendada para blocos de navegação principal (menus)?",
+    "alternativas": [
+      "<menu>",
+      "<navigation>",
+      "<nav>",
+      "<bar>"
+    ],
+    "correta": 2,
+    "explicacao": "A tag <nav> é uma seção da página cujo propósito é fornecer links de navegação.",
+    "fonteNome": "MDN Web Docs",
+    "fonteUrl": "https://developer.mozilla.org/"
+  }
+]

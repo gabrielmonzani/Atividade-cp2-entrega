@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechQuiz - CP2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- TELA 1: INÍCIO -->
+        <section id="tela-inicio" class="tela ativa">
+            <h1>CP2 TechQuiz</h1>
+            <p>Teste seus conhecimentos em lógica e interatividade web!</p>
+            <form id="form-inicio">
+                <label for="nome-jogador">Digite seu nome:</label>
+                <input type="text" id="nome-jogador" required placeholder="Seu nome..." autocomplete="off">
+                <button type="submit" id="btn-jogar">Jogar</button>
+            </form>
+        </section>
+
+        <!-- TELA 2: PERGUNTAS -->
+        <section id="tela-quiz" class="tela">
+            <div class="quiz-header">
+                <span id="contador-perguntas">Pergunta 1 de 3</span>
+                <span id="pontos-atuais">Pontos: 0</span>
+            </div>
+            <div id="container-pergunta">
+                <h2 id="enunciado-pergunta">Carregando pergunta...</h2>
+                <div id="alternativas-grupo" role="group" aria-label="Alternativas">
+                    <!-- Alternativas injetadas via JS -->
+                </div>
+            </div>
+            <div id="container-feedback" class="escondido">
+                <p id="texto-feedback"></p>
+                <p id="bloco-fonte">Fonte: <a id="link-fonte" href="#" target="_blank" rel="noopener"></a></p>
+                <button id="btn-proxima">Próxima Pergunta</button>
+            </div>
+        </section>
+
+        <!-- TELA 3: FIM DE JOGO E RANKING -->
+        <section id="tela-fim" class="tela">
+            <h2>Fim de jogo!</h2>
+            <p id="pontuacao-final">Pontuação: 0/0</p>
+            
+            <div class="ranking-container">
+                <h3>Ranking da Sessão</h3>
+                <ul id="lista-ranking">
+                    <!-- Preenchido via sessionStorage -->
+                </ul>
+            </div>
+
+            <button id="btn-reiniciar">Jogar novamente</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
